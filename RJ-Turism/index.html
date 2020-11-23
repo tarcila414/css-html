@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="dist/jquery.masonryGrid.js"></script>
+    <script>
+        $(function () {
+            $('.my-masonry-grid').masonryGrid({
+                'columns': 3,
+            });
+        });
+    </script>
+    
+
     <title>Rio de Janeiro</title>
 </head>
 <body>
@@ -45,13 +57,40 @@
                  bars, a beautiful view
             </h2>
 
-            <div id="images">
-                <img id="img1" src="./assets/img/bondinho.jpg" alt="">
-                <img id="img2" src="./assets/img/casas.jpg" alt="">
-                <img id="img3" src="./assets/img/cristoRedentor.jpg" alt="">
-                <img id="img4" src="./assets/img/vistaCorcovado.jpg" alt="">
-                <img id="img5" src="./assets/img/vistaPanoramica.jpg" alt="">
+            <div>
+                
             </div>
+            
+            <div class="my-masonry-grid" >
+                <div class="my-masonry-grid-item" >
+                    <img id="img1" src="./assets/img/bondinho.jpg" alt="">
+                </div>
+                <div class="my-masonry-grid-item" >
+                    <img id="img2" src="./assets/img/casas.jpg" alt="">
+                </div>
+                
+                <div class="my-masonry-grid-item" >
+                    <img id="img3" src="./assets/img/vistaPanoramica.jpg" alt="">
+                </div>
+
+                <div class="my-masonry-grid-item" >
+                    <img id="img4" src="./assets/img/cristoRedentor.jpg" alt="">
+                </div>
+                
+                <div class="my-masonry-grid-item" >
+                    <img id="img5" src="./assets/img/vistaCorcovado.jpg" alt="">
+                </div>
+                
+            </div>
+
+            <h2 id="left-title1"> 
+                go once and
+            </h2>
+            <h2 id="left-title2">
+                you'll always come back
+            </h2>
+            
+
         </div>
 
         
