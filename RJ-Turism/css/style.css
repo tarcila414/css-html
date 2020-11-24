@@ -135,3 +135,44 @@ div #places {
     width: 100%;
     height: 100%;
 }
+
+
+/* Secao de imagem*/
+#secao-imagem img {
+    width: 100%;
+}
+
+
+
+/* Seção Final */
+
+#finalization hr {
+    width: 70px;
+    height: 8px;
+    background-color: black;
+    position: relative;
+    left: -275px; 
+}
+
+#finalization p {
+    position: relative;
+    left: 55px;
+}
+
+#images {
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.img-item {
+    margin: 3px;
+}
+
+.first {
+    margin-left: 13px;
+}
+
+.img-item img {
+    width: 23%; 
+    height: 200px;
+}
